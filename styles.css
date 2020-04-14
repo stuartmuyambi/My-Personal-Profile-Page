@@ -56,13 +56,31 @@ a:hover {
   color: white
 }
 
-header {
+header,
+.header-2 {
   text-align: center;
   background: url('images/pattern-background.png') no-repeat top center ;
   background-size: cover;
   overflow: hidden;
   padding-top: 60px;
 }
+
+.header-2{
+  min-height: 320px;
+  padding-top: 120px;
+}
+
+.header2-headings,
+.tagline {
+  color: #f0f0f0;
+  font-size: 3rem;
+  line-height: 35px;
+}
+
+.tagline {
+  font-size: 1.5rem;
+}
+
 header {
   line-height: 1.5;
 }
@@ -74,6 +92,7 @@ header .profile-image {
   border: 3px solid white;
   transition: all .5s;
 }
+
 header .profile-image:hover {
   transform: scale(1.2) rotate(-10deg);
 }
@@ -101,6 +120,10 @@ header .profile-image:hover {
 }
 .card:hover {
   border-color: #5358b0;
+}
+
+.portfolio-image {
+  max-width: 100%;
 }
 
 ul.skills {
